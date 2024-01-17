@@ -1,6 +1,6 @@
 This is a dynamic single-page application that visualises data from COVID-19 Canada Open Data Working Group's API as a dashboard. 
 
-Every time the user selects a new particular region of Canada from the dropdown in the header, created with the help of the imported library 'react-select', the application fetches COVID-19 data. Given the API's response, particular components within the application re-renders with relevant COVID-19 information including:
+Every time the user selects a new particular region of Canada from the dropdown in the header, created with the help of the imported package 'react-select', the application fetches COVID-19 data. Given the API's response, particular components within the application re-renders with relevant COVID-19 information including:
 - The last time the information was updated by the maintainers of the API.
 - Total cumulative cases, tests, deaths and vaccinations corresponding to the location selected.
 
